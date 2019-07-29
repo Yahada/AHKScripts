@@ -227,7 +227,7 @@ return
 			Send, {Enter}
 			Sleep, 1000
 		}
-		TempNumber2 := 62000 - (4000 * CheckCounter)
+		TempNumber2 := 62000 - (3000 * CheckCounter)
 		Sleep, %TempNumber2%
 		LoopCounter++
     }
